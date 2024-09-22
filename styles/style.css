@@ -189,7 +189,6 @@ body {
     
     width: 582px;
     
-
     padding-top: 56px;
     padding-bottom: 58px;
             
@@ -198,15 +197,63 @@ body {
     text-align: center;
     text-decoration: none;
     
-    border: 1px solid black;
-    border-radius: 10px;
-
     color: black;
     background-color: #1BFF07;
+
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .projects__all-btn:hover {
     color: #1BFF07;
     background-color: black;
+
     border: 1px solid #1BFF07;
+}
+
+.skills h2 {
+    margin-top: 150px;
+
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 71.5px;
+
+    color: #FFFFFF;
+}
+
+.skills img {
+    margin-top: 60px;
+}
+
+.skills h3 {
+    margin-top: 12px;
+
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+
+    color: #1BFF07;
+}
+
+.skills p {
+    margin-top: 15px;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28.6px;
+
+    color: #FFFFFF;
+}
+
+.services h2 {
+    margin-top: 150px;
+
+    width: 450px;
+    height: 92px;
+
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+
+    color: #FFFFFF;
 }
