@@ -2,17 +2,22 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body, footer {
     margin: 0 auto;
+
     width: 100%;
+
     background-color: #000;
     font-family: 'IBM Plex Mono', courier, monospace;
     letter-spacing: -0.03em;
 }
 
+
 .container {
-    width: 1153px;
     margin: 0 auto;
+    
+    width: 1153px;
+    
     box-sizing: border-box;
 }
 
@@ -53,6 +58,7 @@ body {
 
 .nav {
     display: inline-block;
+
     margin-top: 33px;
     vertical-align: top;
     
@@ -61,7 +67,6 @@ body {
 .nav__link {
     display: inline-block;
 
-    
     margin-right: 50px;
     
     height: 23px;
@@ -80,18 +85,17 @@ body {
 
 .intro__text-wrapper {
     position: absolute;
-
+    
+    left: 385px;
+    top: 334px;
+    
     width: 430px;
     height: 103px;
 
     line-height: 26px;
-    font-weight: 400;
     font-size: 20px;
     text-align: left;
 
-    left: 385px;
-    top: 334px;
-        
     color: #FFFFFF;
 }
 
@@ -102,7 +106,6 @@ body {
     height: 205px;
 
     line-height: 70px;
-    font-weight: 400;
     font-size: 80px;
     text-align: left;
 
@@ -123,7 +126,6 @@ body {
     width: 1048px;
     height: 72px;
     
-    font-weight: 400;
     font-size: 55px;
     line-height: 71.5px;
 }
@@ -166,7 +168,6 @@ body {
     left: 50px;
     bottom: 94px;
 
-    font-weight: 400;
     font-size: 35px;
     line-height: 45.5px;
 }
@@ -177,7 +178,6 @@ body {
     left: 50px;
     bottom: 50px;
 
-    font-weight: 400;
     font-size: 30px;
     line-height: 39px;
 }
@@ -214,7 +214,6 @@ body {
 .skills h2 {
     margin-top: 150px;
 
-    font-weight: 400;
     font-size: 55px;
     line-height: 71.5px;
 
@@ -228,7 +227,6 @@ body {
 .skills h3 {
     margin-top: 12px;
 
-    font-weight: 400;
     font-size: 35px;
     line-height: 45.5px;
 
@@ -238,7 +236,6 @@ body {
 .skills p {
     margin-top: 15px;
 
-    font-weight: 400;
     font-size: 22px;
     line-height: 28.6px;
 
@@ -251,9 +248,103 @@ body {
     width: 450px;
     height: 92px;
 
-    font-weight: 400;
     font-size: 35px;
     line-height: 45.5px;
 
     color: #FFFFFF;
+}
+
+.img {
+    margin-top: 74px;
+
+    height: 200px;
+
+    border-radius: 30px;
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.text {
+    height: 283px;
+
+    border-radius: 30px;
+
+    background-color: #191c19;
+}
+
+.text h3 {
+    padding-top: 40px;
+    padding-left: 40px;
+
+    font-size: 55px;
+    line-height: 71.5px;
+    color: #1BFF07;
+}
+
+.text p {
+    margin-top: 15px;
+    padding-left: 40px;
+
+    width: 749px;
+
+    font-size: 22px;
+    line-height: 28.6px;
+    color: #FFFFFF;
+}
+
+.contacts {
+    margin-top: 190px;
+
+    height: 717px;
+
+    color: #FFFFFF;
+
+    background-image: url(/resources/img/contacts__bg.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.contacts h3 {
+    padding-top: 320px;
+    
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.contacts p {
+    margin-top: 20px;
+
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.footer {
+    margin-top: 150px;
+
+    width: 1400px;
+    height: 289px;
+
+    font-family: 'Manrope', sans-serif;
+
+    background-color: #fff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.footer h3 {
+    padding-top: 76px;
+
+    font-size: 22px;
+    line-height: 30.05px;
+}
+
+.footer p {
+    margin-top: 66px;
+
+    font-size: 20px;
+    line-height: 27.32px;
+    opacity: 50%;
 }
