@@ -88,7 +88,7 @@ body, footer {
     
     left: 385px;
     top: 334px;
-    
+
     width: 430px;
     height: 103px;
 
@@ -102,6 +102,9 @@ body, footer {
 .intro__text-wrapper h1 {
     margin-top: 29px;
     
+    left: 385px;
+    top: 466px;
+        
     width: 919px;
     height: 205px;
 
@@ -109,9 +112,6 @@ body, footer {
     font-size: 80px;
     text-align: left;
 
-    left: 385px;
-    top: 466px;
-        
     color: #1BFF07;
 }
 
